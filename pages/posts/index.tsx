@@ -24,7 +24,7 @@ const Posts = ({posts}) => {
       <Head>
         <title>Posts</title>
       </Head>
-      <Heading text="Post List:" />
+      <Heading tag="h1" text="Post List:" />
       <ul>
         {posts && posts.map(({ id, title }) => (
           <li key={id}>
